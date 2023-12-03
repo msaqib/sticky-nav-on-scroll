@@ -1,0 +1,69 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('globalwarming.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.logo {
+    position: fixed;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-left: 1rem;
+    z-index: 2;
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    text-align: center;
+    transition: 0.8s ease;
+}
+
+header nav.white ul {
+    background: #FFF;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
