@@ -9,9 +9,9 @@ html {
     font-size: 62.5%;
 }
 
-body {
+/* body {
     margin: 0;
-}
+} */
 
 header {
     width: 100%;
@@ -40,12 +40,13 @@ header {
 header nav {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 header nav ul {
     list-style: none;
-    background: rgba(0, 0, 0, 0);
-    overflow: hidden;
+    /* background: rgba(0, 0, 0, 0); */
+    /* overflow: hidden; */
     text-align: center;
     transition: 0.8s ease;
 }
@@ -66,4 +67,4 @@ header nav ul li a {
     font-family: 'Roboto';
     text-transform: uppercase;
     letter-spacing: 2px;
-}
+} 
